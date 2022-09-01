@@ -17,7 +17,9 @@
 
 arr = [1,2,4,5,7,8]
 missing_elements = []
-for ele in range(arr[0], arr[-1]+1):
-    if ele not in arr:
-        missing_elements.append(ele)
+for value in range(arr[0],arr[-1]+1):
+    if value not in arr:
+        missing_elements.append(value)
 print(missing_elements)
+
+
